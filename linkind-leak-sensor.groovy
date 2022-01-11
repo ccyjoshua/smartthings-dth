@@ -35,7 +35,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-        definition(name: "Linkind Leak Sensor", namespace: "dfung") {
+        definition(name: "Linkind Leak Sensor", namespace: "smartthings", author: "ccyjoshua") {
                 capability "Battery"
                 capability "Water Sensor"
                 capability "Sensor"
